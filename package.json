@@ -1,0 +1,23 @@
+{
+  "name": "screenshot-generator",
+  "version": "1.0.0",
+  "description": "Automated App Store and Google Play marketing screenshot generator",
+  "main": "dist/generateScreenshots.js",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "generate": "npm run build && node dist/generateScreenshots.js",
+    "generate:watch": "tsc --watch",
+    "clean": "rm -rf dist output/ios output/android"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

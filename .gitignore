@@ -1,3 +1,25 @@
+# Ignore everything inside these asset folders
+#/assets/backgrounds/*
+#/assets/device-frames/*
+#/assets/fonts/*
+#/output/*
+#/raw-screenshots/*
+#
+# But keep the folders themselves
+#!/assets/backgrounds/
+#!/assets/device-frames/
+#!/assets/fonts/
+#!/output/
+#!/raw-screenshots/
+#
+#!/assets/backgrounds/.gitkeep
+#!/assets/device-frames/.gitkeep
+#!/assets/fonts/.gitkeep
+#!/output/.gitkeep
+#!/raw-screenshots/.gitkeep
+#
+#
+
 # Logs
 logs
 *.log

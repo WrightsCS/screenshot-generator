@@ -1,0 +1,61 @@
+{
+  "appName": "ShootSmart",
+  "theme": {
+    "gradientColors": ["#0e1218", "#161c2d", "#1a2235"],
+    "gradientAngle": 135,
+    "accentColor": "#e54b4b",
+    "accentColorSecondary": "#e94f19",
+    "headlineColor": "#FFFFFF",
+    "captionColor": "#f5c0c0",
+    "deviceShadowColor": "rgba(0, 0, 0, 0.65)",
+    "fontFamily": "BebasKai"
+  },
+  "layout": {
+    "topZonePct": 0.20,
+    "deviceZonePct": 0.70,
+    "bottomZonePct": 0.10,
+    "deviceWidthPct": 0.70,
+    "headlinePaddingPct": 0.06,
+    "captionPaddingPct": 0.06,
+    "headlineFontSizePct": 0.078,
+    "captionFontSizePct": 0.034
+  },
+  "slides": [
+    {
+      "id": 1,
+      "screenshot": "1",
+      "headline": "Your Photography Command Center",
+      "caption": "Weather, guides & tools — everything you need at a glance"
+    },
+    {
+      "id": 2,
+      "screenshot": "2",
+      "headline": "Scout & Save Perfect Photo Locations",
+      "caption": "Plan shoots with AI-described photo spots pinned on the map"
+    },
+    {
+      "id": 3,
+      "screenshot": "3",
+      "headline": "Simulate Star Trails Before You Shoot",
+      "caption": "Preview star arc length and exposure time before heading out"
+    },
+    {
+      "id": 4,
+      "screenshot": "4",
+      "headline": "Capture Motion With Precision",
+      "caption": "Track speed, heading, and position for perfect motion blur shots"
+    },
+    {
+      "id": 5,
+      "screenshot": "5",
+      "headline": "Expert Photography Guides",
+      "caption": "Curated techniques for every style, from exposure to astrophotography"
+    },
+    {
+      "id": 6,
+      "screenshot": "6",
+      "headline": "Shoot Smarter Every Day",
+      "caption": "Join photographers worldwide — download ShootSmart free today"
+    }
+  ]
+}
